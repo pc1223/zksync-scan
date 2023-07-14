@@ -28,12 +28,7 @@
     line-height: 1.2;
 }
 
-
-@font-face {
-    font-family: '阿里妈妈数黑体';
-    src: url(Alimama_ShuHeiTi_Bold.ttf);
+.ant-table {
+    font-weight: 600;
 }
 
-* {
-    font-family: 阿里妈妈数黑体, serif;
-}

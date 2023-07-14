@@ -11,7 +11,11 @@ export default defineConfig({
             '@routes': resolve(__dirname, './src/routes'),
             '@pages': resolve(__dirname, './src/pages'),
             '@utils': resolve(__dirname, './src/utils'),
+            '@store': resolve(__dirname, './src/store'),
         }
     },
     base: './',
+    server: {
+        port: 5173,
+    }
 });
