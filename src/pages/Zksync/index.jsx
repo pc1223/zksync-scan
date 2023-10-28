@@ -576,19 +576,6 @@ function Zksync() {
         //     ]
         // },
         {
-            title: "NFT是否可领",
-            key: "nft",
-            align: "center",
-            dataIndex: "isCanClaim",
-            render: (text) => (
-                <Space>
-                    {text && text === "yes" ? <Tag color="success">是</Tag> : null}
-                    {text && text === "no" ? <Tag color="error">否</Tag> : null}
-                    {text && text === "error" ? <Tag color="error">获取失败</Tag> : null}
-                </Space>
-            )
-        },
-        {
             title: t("state"),
             key: "result",
             align: "center",
